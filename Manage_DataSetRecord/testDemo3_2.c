@@ -179,7 +179,7 @@ RC testTombstone(void)
 		return RC_OK;
 	}
 	else {
-		return RC_OK;
+		return RC_NOT_A_TOMBSTONE;
 	}
 
 }
